@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Apple | <%= title %></title>
+    </head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<nav>
+    <div class="site-title">
+    <a href="/"><h1>Home</h1></a>
+    <p>paragraph</p>
+    </div>
+    <ul> 
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/blogs/create">Create</a></li>
+    </ul>
+   
+</nav>
+
+<div class="not-found content">
+    <h2>Not Found</h2>
+
+</div>
+<%- include('./partials/footer.ejs') %>
+   
+</body>
+</html>

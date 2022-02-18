@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./partials/head.ejs') %>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<%- include('./partials/nav.ejs') %>
+
+<div class="create-blog content">
+    <form>
+        <label for="title">Reasons Title:</label>
+        <input type="text" id="title" required>
+        <label for="snippet">Reasons Snippet:</label>
+        <input type="text" id="snippet" required>
+        <label for="body">Reasons body:</label>
+        <textarea id="body" required></textarea>
+        <button>Submit</button>
+
+    </form>
+
+</div>
+<%- include('./partials/footer.ejs') %>
+</body>
+</html>
